@@ -75,3 +75,14 @@ make use of them.  They will give you useful error messages.
 In the second test example, the `self.assertTrue` function gets called because
 `scipy` and my naive implementation of `starndard_deviation` don't round in the
 same ways.
+
+Running Tests
+-------------
+
+Finally, to run all the tests in your src folder can execute this from the root
+of the repository.
+
+`ipython -m unittest discover src`
+
+Note that if you are already in the `src` directory you can omit the last
+argument.
